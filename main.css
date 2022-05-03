@@ -250,7 +250,7 @@ ul li {
    
 
 }
-
+/* 
 .tabla-redes {
     width: 70%;
     margin: 50px;
@@ -258,12 +258,19 @@ ul li {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(2, 80px);
-}
+} */
 
 .tabla-textos, .tabla-logos {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 70%;
+    margin: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 80px);
 }
 
 /* .tabla-mobile {
@@ -287,7 +294,8 @@ body {
     gap: 10px;
     min-height: 100%;
     grid-template-areas:
-     "header" "nav"
+     "header"
+     "nav"
      "main" 
      "footer" 
      ;
@@ -695,3 +703,33 @@ body {
 
 }
 
+.transicion {
+    height: 70px;
+    width: 10px;
+    opacity: 1;
+    animation-name: fade-in;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+}
+
+@keyframes fade-in {
+    0% {
+        transform: translateX(-800px);
+        opacity: 0;
+        
+    }
+
+    50% {
+        transform: translateX(-50px);
+        opacity: .5;
+        
+    }
+
+    100% {
+
+        transform: translateX(0px);
+        opacity: 1;
+    
+    }
+}
