@@ -1,0 +1,697 @@
+.header-index{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 10px;
+    align-content: center;
+    background-size: cover;
+    list-style: none;
+    align-items: center;
+    padding: 30px;
+    
+    margin-left: 1px;
+    
+}
+
+nav {
+    padding: 50px;
+    
+    flex: right;
+    text-align: center;
+    height: fit-content;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 5px;
+}
+
+a:hover{
+    color: black ;
+}
+
+.logo img{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 400px;
+}
+
+
+
+.encabezado-2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(192, 182, 201);
+    text-align: center;
+    text-shadow: 0.1em 0.1em white;
+}
+
+.encabezado-3 {
+    color: #8a2be2;
+}
+
+body {
+   height: 100%;
+   /* para poner una imagen, ingresar su carpeta + nombre! */
+   background-image: url(fotos/fondo1.jpg);
+   /* la foto ocupa toda la pag */
+   background-size: cover;
+   /* la foto queda estática y el text de mueve */
+   background-attachment: fixed;
+   padding: 5px 10px 20px 25px;
+   margin: 5px;
+   width: 30px;
+
+}
+
+
+.links {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.link-primario {
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em blueviolet
+}
+
+.fuente-encabezados {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 500; 
+    color: rgb(212, 203, 219);
+    text-shadow: 0.1em 0.1em rgb(48, 22, 73);
+    text-decoration: underline;
+}
+
+.fuente-textos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300; 
+    color: rgb(219, 210, 224);
+  
+    
+}
+
+.texto-productos {
+    height: 50px;
+    width: 300px;
+}
+
+.todas-imagenes {
+    flex-wrap: wrap;
+}
+
+.todas-imagenes div {
+    height: 350px;
+    width: 10px;
+}
+
+.imagen-masc-pestañas {
+    height: 250px;
+    width: auto;
+}
+
+.imagen-labiales {
+    height: 200px;
+    width: auto;
+}
+
+.imagen-iluminador {
+    height: 200px;
+    width: auto;
+}
+
+.imagen-rubor {
+    height: 300px;
+    width: auto;
+}
+
+.imagen-sombras {
+    height: 200px;
+    width: auto;
+}
+
+
+.nombres-productos {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em rgb(114, 76, 151);
+    display: flex;
+ 
+    justify-content: space-between;
+    
+}
+
+.contenedorFooter {
+    display: flex;
+
+    justify-content: space-around;
+    
+    display: inline;
+   
+    text-align: center;
+    height: fit-content;
+    width: 500px;
+}
+
+.logo-footer {
+    display: flex;
+    flex: right;
+    width: 150px;
+    height: 80px;
+    margin-left: 300px;
+    
+}
+
+.fuente-footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 550; 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 300px;
+  
+    
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    float: right;
+}
+
+
+.fondo-nosotros {
+    background-image: url(fotos/fondo1.jpg);
+}
+
+.nombre-redes {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+
+ul li {
+    display: list-item;
+    margin: 5px;
+}
+
+.textos-lista {
+    display: flex;
+    width: 300px;
+    margin-left: 300px;
+}
+
+.fuente-lista {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 500px; 
+    text-shadow: 0.1em 0.1em rgb(48, 22, 73);
+    color: rgb(241, 232, 232);
+    
+}
+
+.imagen-empresa {
+    display: none;
+    height: 200px;
+    width: auto;
+}
+
+.logo-apps {
+    height: 50px;
+}
+
+.imagen-pres {
+    height: 250px;
+    width: 400px;
+}
+
+.tabla {
+    
+    border: solid 3px rgb(226, 219, 236);
+    /* border-style: solid; */
+    /* grosor: */
+    /* border-width: 3px;  */
+    /* color de los bordes */
+    /* border-color: rgb(226, 219, 236); */
+    /* forma del borde */
+    border-radius: 4px;
+    padding: 10px;
+    height: 80px;
+    width: 100px;
+   
+
+}
+
+.tabla-redes {
+    width: 70%;
+    margin: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 80px);
+}
+
+.tabla-textos, .tabla-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .tabla-mobile {
+    height: 80px;
+    width: 80px;
+    margin: 80px;
+} */
+
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    min-height: 100%;
+    grid-template-areas:
+     "header" "nav"
+     "main" 
+     "footer" 
+     ;
+}
+
+/* grid index */
+
+.header-index {
+    grid-area: "header";
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-index {
+    grid-area: "nav";
+    height: auto;
+}
+
+.main-index {
+    grid-area: "main";
+    margin: 30px;
+    width: 200px;
+}
+
+.footer-index {
+    grid-area: "footer";
+    height: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* grid nosotros */
+
+
+.header-nosotros {
+    grid-area: "header";
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nosotros1 {
+    grid-area: "main";
+    width: 450px;
+    height: 0.5px;
+    padding: 20px 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-nosotros2{
+    grid-area: "none";
+    width: 310px;
+    height: 300px;
+    margin-right: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-nosotros {
+    grid-area: "footer";
+}
+
+.contenedor-pag {
+    width: 100%;
+}
+
+/* MOBILE FIRST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11 */
+@media screen and (min-width: 768px) {
+
+    .header-index{
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        width: auto;
+        align-content: center;
+        background-size: cover;
+        list-style: none;
+        align-items: center;
+        padding: 30px;
+    }
+    
+    nav {
+        padding: 100px;
+        flex: right;
+        text-align: center;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 60px;
+        margin-right: 180px;
+    }
+    
+    a:hover{
+        color: black ;
+    }
+    
+    .logo img{
+        width: 300px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 180px;
+    }
+    
+    
+    
+    .encabezado-2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(192, 182, 201);
+        text-align: center;
+        text-shadow: 0.1em 0.1em white;
+    }
+    
+    .encabezado-3 {
+        color: #8a2be2;
+    }
+    
+    body {
+       height: 665px;
+       /* para poner una imagen, ingresar su carpeta + nombre! */
+       background-image: url(fotos/fondo1.jpg);
+       /* la foto ocupa toda la pag */
+       background-size: cover;
+       /* la foto queda estática y el text de mueve */
+       background-attachment: fixed;
+       padding: 5px 10px 20px 25px;
+       margin: 5px;
+    
+    }
+    
+    
+    .links {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 400; 
+        list-style: none;
+        display: inline;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+    
+    .link-primario {
+        color: rgb(255, 255, 255);
+        text-shadow: 0.1em 0.1em blueviolet
+    }
+    
+    .fuente-encabezados {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        font-weight: 500; 
+        color: rgb(212, 203, 219);
+        text-shadow: 0.1em 0.1em rgb(48, 22, 73);
+        text-decoration: underline;
+    }
+    
+    .fuente-textos {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 550; 
+        color: rgb(219, 210, 224);
+        
+    }
+
+    .todas-imagenes {
+        width: 950px;
+        flex-wrap: wrap;
+    }
+    
+    .imagen-masc-pestañas {
+        /* largo de img */
+        height: 200px;
+        /* ancho de img */
+        width: 150px;
+    }
+    
+    .imagen-labiales {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .imagen-iluminador {
+        height: 200px;
+    }
+    
+    .imagen-rubor {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .imagen-sombras {
+        height: 200px;
+    
+    }
+    
+    .todas-imagenes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .nombres-productos {
+       font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: medium;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        text-shadow: 0.1em 0.1em rgb(114, 76, 151);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .contenedorFooter {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 100px;
+        width: 100%;
+    
+    }
+    
+    .logo-footer {
+        width: 150px;
+        height: 100px;
+        align-items: center;
+      
+
+    }
+
+    .fuente-footer {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        font-weight: 550; 
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin-left: 100px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    
+    .fondo-nosotros {
+        background-image: url(fotos/fondo1.jpg);
+    }
+    
+    .nombre-redes {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 15px;
+    }
+    
+    
+    ul li {
+        display: list-item;
+        margin: 5px;
+    }
+    
+    .fuente-lista {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-weight: 500px; 
+        text-shadow: 0.1em 0.1em rgb(48, 22, 73);
+        color: rgb(241, 232, 232);
+        
+    }
+    
+    .imagen-empresa {
+        height: 200px;
+        width: auto;
+    }
+    
+    .logo-apps {
+        height: 50px;
+    }
+    
+    .imagen-pres {
+        height: 250px;
+        width: 400px;
+    }
+    
+    .tabla {
+        
+        border: solid 3px rgb(226, 219, 236);
+        /* border-style: solid; */
+        /* grosor: */
+        /* border-width: 3px;  */
+        /* color de los bordes */
+        /* border-color: rgb(226, 219, 236); */
+        /* forma del borde */
+        border-radius: 4px;
+        padding: 10px;
+    }
+    
+    .tabla-redes {
+        width: 50%;
+        margin: 30px;
+    
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(2, 80px);
+    }
+    
+    .tabla-textos, .tabla-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    html {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        width: 100%;
+    }
+    
+    .grid-container {
+        display: grid;
+        gap: 10px;
+        min-height: 100%;
+        grid-template-areas:
+         "header" "nav"
+         "main" "main"
+         "footer" "footer"
+         ;
+    }
+    
+    /* grid index */
+    
+    .header-index {
+        grid-area: "header";
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .nav-index {
+        grid-area: "nav";
+        height: auto;
+    }
+    
+    .main-index {
+        grid-area: "main";
+        margin: 30px;
+        width: auto;
+    }
+    
+    .footer-index {
+        grid-area: "footer";
+        height: 20px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* grid nosotros */
+    
+    
+    .header-nosotros {
+        grid-area: "header";
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-nosotros1 {
+        grid-area: "main";
+        width: 540px;
+        height: 0.5px;
+        padding: 20px 20px;
+        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .main-nosotros2{
+        grid-area: "main";
+        width: 310px;
+        height: 300px;
+        margin-right: 300px;
+        float: right;
+    }
+    
+    .footer-nosotros {
+        grid-area: "footer";
+    }
+    
+    .contenedor-pag {
+        width: 100%;
+    }
+
+}
+
