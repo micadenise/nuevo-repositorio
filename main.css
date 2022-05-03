@@ -727,9 +727,12 @@ body {
     }
 
     100% {
-
         transform: translateX(0px);
         opacity: 1;
-    
+
     }
+}
+
+.animacion:hover{
+    transform: scale(1.2);
 }
